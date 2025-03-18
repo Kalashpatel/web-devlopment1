@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>use of form tag</title>
+
+</head>
+<body>
+    
+    <h1>Registration form</h1>
+    <form action="" method="">
+        <label>First name:</label>
+        <input type="text" name="fname" placeholder="Enter your fist name" required>
+        <br><br>
+        <label>Last name: </label>
+        <input type="text" name="lname" placeholder="Enter your last name" required>
+        <br><br>
+        <label>email: </label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label>password: </label>
+        <input type="password" name="pwd" placeholder="Enter password" required>
+        <br><br>
+        <label>mobile no: </label>
+        <input type="tel" name="mnuber" placeholder="Enter your mobile number" pattern="[0-9]{5}-[0-9]{5}" required>
+        <br><br>
+        <label>gender: </label>
+        <label><input type="radio" name="gender" value="male">male</label>
+        <label><input type="radio" name="gender" value="female">female</label>
+        <br><br>
+        <label>hobby </label>
+        <label><input type="checkbox" name="hobby" value="singing" >singing</label>
+        <label><input type="checkbox" name="hobby" value="dancing" >dancing</label>
+        <label><input type="checkbox" name="hobby" value="reading" >reading</label>
+        <label><input type="checkbox" name="hobby" value="cooking" >cooking</label>
+        <br><br>
+        <label>slelect your city: </label>
+        <select name="city" multiple>
+            <option value="surat">surat</option>
+            <option value="rajkot">rajkot</option>
+            <option value="vadodara">vadodara</option>
+            <option value="ahmedabad">ahmedabad</option>
+            <option value="vapi">vapi</option>
+        </select>
+        <br><br>
+        <label>upload your CV: </label>
+            <input type="file" name="cv" required>
+
+        <br><br>
+        <input type="submit" name="submit">
+        <input type="reset" name="reset">
+    </form>
+
+</body>
+</html>
